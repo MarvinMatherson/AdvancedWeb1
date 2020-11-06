@@ -9,31 +9,50 @@
     <title>Phones</title>
   </head>
   <body>
-    <header class="mainheader">
       <div class="header">
-        <h1>LOGO</h1>
         <div class="links">
+        <a href="index.html"><div class="logotext">Logo</div></a>
         <a href="brand.html"><div class="brand-button">Brand</div></a>
         <a href="brand.html"><div class="make-button">Make</div></a>
         </div>
-
-        <div class="searchbox">
-          <form class="searchhere">
-            <input type="search" name="" placeholder="Search" class="main"></input>
-          </form>
         <div class="profile">
-        <i class="far fa-user fa-3x"></i>
+        <i class="fa fa-search fa-3x"></i>
+        <i class="fa fa-user fa-3x" data-toggle="modal" data-target="#exampleModalCenter"></i>
       </div>
-
+      <div class="searchbar">
+</div>
+  </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Log In</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-        </div>
-        </header>
+      <div class="modal-body">
+        <ol>
+          <li>This is a test</li>
+          <li>This is also a test</li>
+          <li>Another test?</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="bye" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
         <div class="owl-carousel owl-theme">
           <img src="./images/test1.jpg" alt="">
           <img src="./images/test2.jpg" alt="">
           <img src="./images/test3.jpg" alt="">
         </div>
-<div class="spacer"></div><br>
+
+</div>
 <div class="products">
 
 <div class="item"></div>
@@ -55,9 +74,9 @@ $(document).ready(function(){
   $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
-    autoWidth: true,
-    autoplay: true,
-    autoplayTimeout: 3000,
+   //autoWidth: ,
+  //  autoplay: true,
+    //autoplayTimeout: 3000,
     autoplayHoverPause: true,
 
   });
