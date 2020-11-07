@@ -2,93 +2,27 @@
 @import "abstracts/variables";
 @import "themes/theme";
 
-
-body{
-  background-color: #F2EDD7FF;
-}
-
-i.fa{
-  color: #d6d5d5;
-}
-
-h1{
-font-family: 'arial';
-font-size: 40px;
-color: #d6d5d5;
-}
-
-a{
-  font-size: 5px;
-}
 .header{
-  background-color:#755139FF;
   width: 100%;
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content:flex-end;
+  border: 5px solid red;
 }
 
-.links{
-margin-right: auto;
- border: 1px solid red;
-height: 100px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.logotext, .brand-button, .make-button{
-  font-family: 'arial';
-  margin: 20px;
-  font-size: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
+.item1{
+  margin: auto;
+  width: 20px;
   height: 30px;
-  color: #d6d5d5;
-  border-radius: 30px;
-}
-.profile{
-  margin: 10px;
-  width: 200px;
-  border: 1px solid red;
-  display: flex;
-  height: 100px;
-  justify-content: space-around;
-  align-items:center;
+  background-color:green;
 }
 
-input{
-  padding-left: 20px;
+/*
+.item2{
+  width: 20px;
+  height: 30px;
+  background-color:blue;;
 }
-
-input:focus{
-  outline:none;
+.item3{
+  width: 20px;
+  height: 30px;
+  background-color: yellow;
 }
-
-.main{
-  border-radius: 500px;
-  width: 800px;
-  height: 60px;
-  border:0;
-  border-color: transparent;
-}
-
-.products{
-flex-wrap: wrap;
-display: flex;
-justify-content:space-around;
-align-items:center;
-height: 500px;
-}
-
-.item{
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border: 1px solid black;
-  height: 500px;
-  width: 400px;
-}
+*/
