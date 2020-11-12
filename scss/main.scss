@@ -8,100 +8,68 @@ font-family: 'Noto Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 
 */
-.header{
-  width: 100%;
-  background-image: url('../images/4ktest.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 500px;
+.navbar a{
+  font-size: 40px;
+  font-family: 'Noto Sans';
 }
 
-.navcontainer{
+.form-control{
+  border-radius: 5px;
+  margin-right:auto;
+}
+
+.mainimg{
+  width: 100%;
+}
+
+.picture{
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  height: 650px;
+}
+
+.second-div{
+  margin-bottom: 20px;
+  margin-top: 30px;
+  width: 100%;
+  height:60px;
+  display: flex;
   border: 1px solid red;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content:space-around;
   align-items: center;
+  justify-content: flex-start;
 }
 
-.logotext{
-color: #FFFF;
-font-family: 'Noto Sans';
-margin-left: 20px;
-}
-
-.links{
-margin-right: 400px;
-  margin-top: 10px;
-  color: #FFFF;
-  font-family: 'Roboto';
-  font-size: 20px;
-  display: flex;
-  flex-direction:row;
-  align-items: center;
-}
-
-.links h2{
-    margin: 5px;
-  font-size: 20px;
-}
-
-.searchbar{
-  display: flex;
-}
-
-.searchbar input{
-  padding-left: 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  display: flex;
+.second-div a{
   margin: 20px;
-  width: 250px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  height: 40px;
+  color: black;
 }
 
-.searchbar input:focus{
-  outline: none;
-}
-
-
-.secondnavcontainer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100px;
-}
-
-.secondnav{
-display: flex;
-align-items: center;
-width: 78%;
-background-color: $secondary-colour;
-border-radius: 5px;
-height: 40px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.secondtext h2{
-  margin: 30px;
-  color: #FFFF;
-  font-size: 20px;
-}
-
-.secondicon{
+.second-div i{
+  margin: 20px;
   margin-left: auto;
 }
 
-.secondicon i{
-  margin: 30px;
-  color: #FFFF;
+img{
+  width: 100%;
+}
+h2{
+  text-align: center;
 }
 
-.mainhero{
+.outline{
+  margin-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: orange;
+  border: 5px solid red;
+}
 
+.row{
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
