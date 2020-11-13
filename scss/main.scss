@@ -8,6 +8,14 @@ font-family: 'Noto Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 
 */
+nav{
+  margin-top: 20px;
+}
+
+.owl-carousel{
+  margin-top: 20px;
+}
+
 .navbar a{
   font-size: 40px;
   font-family: 'Noto Sans';
@@ -33,7 +41,7 @@ font-family: 'Roboto', sans-serif;
   margin-bottom: 20px;
   margin-top: 30px;
   width: 100%;
-  height:60px;
+  height:70px;
   display: flex;
   border: 1px solid red;
   align-items: center;
@@ -41,8 +49,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 .second-div a{
-  margin: 20px;
+  margin-top: 3px;
+  margin-left: 20px;
   color: black;
+  font-family: 'Roboto';
 }
 
 .second-div i{
@@ -58,15 +68,14 @@ h2{
 }
 
 .outline{
-  margin-top: 30px;
+  margin-top: 20px;
   padding-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 30px;
-  background-color: orange;
-  border: 5px solid red;
+  background-color: white;
 }
 
 .row{
